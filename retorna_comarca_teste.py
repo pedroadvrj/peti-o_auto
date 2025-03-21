@@ -148,7 +148,6 @@ def busca_comarca(numero_processo):
   nome_comarca = dados[sigla_comarca].upper()
   numero_vara, = retorna_numero_vara(comarca)
   cabecalho = (f"AO JUÍZO DA {numero_vara}ª VARA CÍVEL DA {nome_comarca}")
-  print(cabecalho)
   return cabecalho
 
 
