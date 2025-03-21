@@ -6,7 +6,7 @@ def chamada_api(numero_processo):
   url = "https://api-publica.datajud.cnj.jus.br/api_publica_tjrj/_search"  # Substitua isso pela URL da sua API
 
   headers = {
-    'Authorization': 'ApiKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==',
+    'Authorization': '',
     'Content-Type': 'application/json'
   }
 
